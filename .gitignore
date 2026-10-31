@@ -1,0 +1,6 @@
+node_modules/ 
+Desktop/ 
+*.mp4 
+*.lnk 
+*.xlsx 
+*.pdf 

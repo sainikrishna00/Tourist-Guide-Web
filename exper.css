@@ -1,0 +1,134 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #d6dddf;
+
+}
+
+.dis{ position: relative;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+ }
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(50%); /* Dark overlay for readability */
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#080300;
+  padding: 15px 40px;
+  height: 40px;
+      background: linear-gradient(to right, #d15f4d, #0a6405);
+
+}
+b {
+color: #b0460d;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header img {
+  height: 50px;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: #0d0500;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: rgb(64, 255, 0);
+}
+
+/* Page content */
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color:#b0460d;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+/* Cards layout */
+.discover-cards, 
+.experience-cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+    background: linear-gradient(to right, #ca9c86, #fdfdfd);
+  border-radius: 12px;
+  box-shadow: 4px 8px rgba(13, 1, 1, 0.1);
+  width: 280px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+  color: #0f690b;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 25px;
+  background: #b0460d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #3794a7;
+}
